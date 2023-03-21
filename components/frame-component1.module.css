@@ -1,0 +1,164 @@
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 240px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.designToCode {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.minRead {
+  position: relative;
+  letter-spacing: -0.04em;
+}
+.minReadWrapper {
+  border-radius: 6px;
+  background-color: #ebeef2;
+  display: flex;
+  flex-direction: row;
+  padding: 3px 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: #495367;
+}
+.designToCodeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.locofyaiTurn {
+  align-self: stretch;
+  position: relative;
+  font-size: 26px;
+  letter-spacing: 0.02em;
+  line-height: 34px;
+  font-family: Alegreya;
+  color: #1a202e;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.goFromFigma {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 28px;
+}
+.goFromFigmaToCodeInMinimWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #1a202e;
+  font-family: Roboto;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.frameItem {
+  position: relative;
+  border-top: 0.7px solid #ecf0f6;
+  box-sizing: border-box;
+  width: 396.7px;
+  height: 0.7px;
+  flex-shrink: 0;
+}
+.avatarIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.annaRos {
+  position: relative;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+  display: inline-block;
+  width: 145.47px;
+}
+.postedJustNow {
+  position: relative;
+  font-size: 14px;
+  font-family: Roboto;
+  color: #96a2be;
+  display: inline-block;
+  width: 145.47px;
+}
+.authorText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.articleAuthor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.lineParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+  font-size: 17px;
+  color: #495367;
+}
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 0.7px solid #dee3eb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+  text-align: left;
+  font-size: 16px;
+  color: #457eff;
+  font-family: "Source Code Pro";
+}
+
+@media screen and (max-width: 960px) {
+  .rectangleParent {
+    flex: unset;
+    align-self: stretch;
+  }
+}
